@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+whisper = {git = "https://github.com/openai/whisper.git"}
+"pyannote.audio" = "==2.1.1"
+pydub = "==0.25.1"
+transformers = "==4.24.0"
+
+[dev-packages]
+jupyterlab = "==3.5.0"
+
+[requires]
+python_version = "3.9"
